@@ -1,5 +1,9 @@
-# databricks-sqlmigration
 
+
+#  Scenario 1-  SQL Server Store procedure to be converted to Databricks SQL supporting function
+
+  Created table in   SQLServer in Azure
+  
 CREATE TABLE products_master (
   product_id          INT PRIMARY KEY NOT NULL, -- Added PRIMARY KEY for unique identifier
   product_name        NVARCHAR(255),            -- Use NVARCHAR for Unicode support
@@ -40,10 +44,12 @@ GO
 EXEC dbo.GetProductNameById @ProductId = 1;
 GO
 
+You can see Store procdure is called and got result.   
 
 ![image](https://github.com/user-attachments/assets/d737136f-c4e9-4e2e-a375-405cb20c5935)
 
 
+# Below example will show, how this table data in SQL SERVER is translated to Databricks Warehouse using Unity catlalog and tables
 
 Databricks SQL
 
@@ -70,8 +76,10 @@ RETURN (
 ![image](https://github.com/user-attachments/assets/83aa1363-f023-453e-aeac-68f998f918bf)
 
 
+# Below example will show, how this table data in SQL SERVER is translated to Databricks Notebook using Unity catlalog and notebook with SPARK SQL
 
-in Spark notebook with spark sql
+
+in Spark notebook with spark sql  --->
 
 
 ![image](https://github.com/user-attachments/assets/bc5c5d9d-7aa7-44de-8337-0bd6a6e7be27)  
@@ -84,5 +92,5 @@ in Spark notebook with spark sql
 
 
 
-
+In above screenshot, you can see function is called with parameter and we got result
 
