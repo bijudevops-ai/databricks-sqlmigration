@@ -69,3 +69,20 @@ RETURN (
 
 ![image](https://github.com/user-attachments/assets/83aa1363-f023-453e-aeac-68f998f918bf)
 
+
+
+in Spark notebook with spark sql
+
+
+![image](https://github.com/user-attachments/assets/bc5c5d9d-7aa7-44de-8337-0bd6a6e7be27)  
+
+![image](https://github.com/user-attachments/assets/e1fb24d3-f0e3-4cba-8ae7-dec89aff38fd)
+
+![image](https://github.com/user-attachments/assets/92f7ea4c-1ed3-4184-8296-1699f21bf65b) ..
+
+![image](https://github.com/user-attachments/assets/0d2b3cc1-8934-4a86-9b21-fbe84b71e327)
+
+
+
+
+
